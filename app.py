@@ -26,11 +26,9 @@ def generate_prompt(question):
     return """Suggest some simple answers.
 
 Question: What is the Earth?
-Answer: That is the planet we live on.
+Answer: Earth is the third planet from the Sun.
 Question: What is the sun?
-Answer: That is the closet start to us.
-Question: What is the weather?
-Answer: It feels like 78°
+Answer: It is the closest star.
 Question: {}
 Answer:""".format(
         question.capitalize()
