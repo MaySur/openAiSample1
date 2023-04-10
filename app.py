@@ -28,7 +28,7 @@ def generate_prompt(question):
 Question: What is the Earth?
 Answer: Earth is the third planet from the Sun.
 Question: What is the sun?
-Answer: It is the closest star.
+Answer: It is the closest star to the earth.
 Question: {}
 Answer:""".format(
         question.capitalize()

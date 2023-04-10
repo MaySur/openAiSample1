@@ -1,44 +1,41 @@
-# OpenAI API Quickstart - Python example app
+# OpenAI API Simple Question and Answer Application 
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is a simple web application that used various engines such as the davinci engine and the ada engine with the OpenAI API
+
+## Purpose: 
+* This projects purpose is to get familar with the OpenAI API library and testing each engine's capabalities.
 
 ## Setup
 
-1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/).
+* Have Python installed
 
-2. Clone this repository.
+* Have Flask installed
 
-3. Navigate into the project directory:
+* Create a virtual environment:
 
-   ```bash
-   $ cd openai-quickstart-python
+   ```
+   python -m venv venv
+   ./venv/bin/activate
+   ```
+* Refer the `requirements.txt` to get requirements and run the commands below:
+
+   ```
+   pip install -r requirements.txt
    ```
 
-4. Create a new virtual environment:
+* Make a copy of the example environment variables file:
 
-   ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
+   ```
+   .env.example .env
    ```
 
-5. Install the requirements:
+* Add your API Key to `.env` file.
 
-   ```bash
-   $ pip install -r requirements.txt
+* Run the app:
+
    ```
-
-6. Make a copy of the example environment variables file:
-
-   ```bash
-   $ cp .env.example .env
-   ```
-
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
-
-8. Run the app:
-
-   ```bash
    $ flask run
    ```
+* Application running on http://localhost:5000/
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
