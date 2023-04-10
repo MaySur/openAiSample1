@@ -30,6 +30,7 @@ This is a simple web application that used various engines such as the davinci e
    ```
 
 * Add your API Key to `.env` file.
+* DO NOT SHARE API KEY ANYWHERE
 
 * Run the app:
 
